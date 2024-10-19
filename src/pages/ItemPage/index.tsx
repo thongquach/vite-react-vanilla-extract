@@ -1,7 +1,7 @@
 import { FormEvent, useState } from "react";
 import { Input, Button, List, Typography } from "antd";
 import { Link } from "react-router-dom";
-import * as styles from "./ItemPage.css";
+import * as styles from "./index.css";
 
 const ItemPage = () => {
   const [item, setItem] = useState("");
